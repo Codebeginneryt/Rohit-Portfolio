@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.navbar{
+	display: inline-flex;
+	padding:20px;
+}
+.navbar .logo h1{
+	font-weight: 18px;
+	font-weight: normal;
+	letter-spacing: 0.5em;
+}
+.navbar .logo span{
+	color:#1d754d;
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar .items{
+	width: 70%;
+	margin-left: 40%;
+	display: inline-flex;
+}
+.navbar .items a{
+	margin-left: 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+.navbar .items a:hover{
+	color:#1d754d;
+	border-bottom: 2px solid #1d754d;
+}
+.navbar .theme{
+	margin-left: 25%;
+	display: inline-flex;
+}
+.navbar .theme i{
+	font-size: 24px;
+}
+.navbar .theme p{
+	font-size: 18px;
+	margin: 4px;
+}
+.home{
+	display: inline-flex;
+	width: 100%;
+}
+.home .social{
+	width: 15%;
+	height: 400px;
+	margin:30px 0 0 10px;
+	padding: 100px 0 0 70px;
+}
+.home .social i{
+	margin: 14px;
+	font-size: 30px;
+	color: #1d754d;
+}
+.home .responsive-pic img{
+	display: none;
+}
+.home .bio{
+	height: 300px;
+	width: 35%;
+	padding: 30px;
+	margin: 80px 0 0 120px;
+
+}
+.home .bio h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin: 10px;
+}
+.home .bio p{
+	font-size: 16px;
+	color: grey;
+	margin: 10px;
+}
+.home .bio span{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.home .bio button{
+	margin-top: 20px;
+	margin-left: 10px;
+	height: 40px;
+	width: 150px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background: #1d754d;
+	border-radius: 5px;
+}
+.home .picture img{
+	height: 300px;
+	width: 300px;
+	margin: 80px 0 0 120px;
+}
+.mobile-nav{
+	display: none;
+}
+.mobile-items{
+	display: none;
+}
