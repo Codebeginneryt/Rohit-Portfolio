@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+#theme{
+	background:white;
+	color: black;
+}
+.navbar{
+	display: inline-flex;
+	padding:20px;
+}
+.navbar .logo h1{
+	font-weight: 18px;
+	font-weight: normal;
+	letter-spacing: 0.5em;
+}
+.navbar .logo span{
+	color:#1d754d;
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar .items{
+	width: 70%;
+	margin-left: 40%;
+	display: inline-flex;
+}
+.navbar .items a{
+	margin-left: 30px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+.navbar .items a:hover{
+	color:#1d754d;
+	border-bottom: 2px solid #1d754d;
+}
+.navbar .theme{
+	margin-left: 25%;
+	display: inline-flex;
+}
+.navbar .theme i{
+	font-size: 24px;
+}
+.navbar .theme p{
+	font-size: 18px;
+	margin: 4px;
+}
+.home{
+	display: inline-flex;
+	width: 100%;
+}
+.home .social{
+	width: 15%;
+	height: 400px;
+	margin:30px 0 0 10px;
+	padding: 100px 0 0 70px;
+}
+.home .social i{
+	margin: 14px;
+	font-size: 30px;
+	color: #1d754d;
+}
+.home .responsive-pic img{
+	display: none;
+}
+.home .bio{
+	height: 300px;
+	width: 35%;
+	padding: 30px;
+	margin: 80px 0 0 120px;
+
+}
+.home .bio h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin: 10px;
+}
+.home .bio p{
+	font-size: 16px;
+	color: grey;
+	margin: 10px;
+}
+.home .bio span{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.home .bio button{
+	margin-top: 20px;
+	margin-left: 10px;
+	height: 40px;
+	width: 150px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background: #1d754d;
+	border-radius: 5px;
+}
+.home .picture img{
+	height: 300px;
+	width: 300px;
+	margin: 80px 0 0 120px;
+}
+.mobile-nav{
+	display:none;
+}
+.mobile-items{
+	display: block;
+}
+.about{
+	margin-top: 10%;
+	width: 100%;
+	height: 70vh;
+}
+.about .title{
+	width: 100%;
+	text-align: center;
+}
+.about .title span{
+	color: #1d754d;
+	font-size: 40px;
+}
+.about .title h1{
+	font-size: 30px;
+}
+.about .title p{
+	margin-top: 5px;
+	font-size: 18px;
+	color: grey;
+	font-weight: bold;
+}
+.about .about-text{
+	padding: 50px 220px 50px 220px;
+	display: inline-flex;
+}
+.about .about-text .about-pic img{
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+}
+.about .about-text .about-detail{
+	margin:30px 0 0 80px;
+}
+.about .about-text .about-detail .experience{
+	display: inline-flex;
+}
+.about .about-text .about-detail .experience .box{
+	text-align: center;
+	margin: 30px 40px 0 0;
+}
+.about .about-text .about-detail .experience .box p{
+	font-size: 14px;
+	font-weight: bold;
+	color: grey;
+}
+.about .about-text .about-detail button{
+	height: 40px;
+	width: 150px;
+	margin-top: 30px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background: #1d754d;
+	border-radius: 5px;
+}
+.skill{
+	height: 500px;
+}
+.skill .skill-card{
+	margin-left: 10%;
+	height: 300px;
+	width: 400px;
+}
+.skill .skill-card .skill-title{
+	height: 50px;
+	width: 100%;
+	display: inline-flex;
+}
+.skill .skill-card .skill-title span{
+	color: #1d754d;
+	font-weight: bold;
+	font-size: 20px;
+}
+#dropskill{
+	margin-left: 100px;
+}
+.skill .skill-card .skill-title h1{
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: normal;
+	color: grey;
+
+}
+.skill .skill-card .skill-title i{
+	font-size: 30px;
+	color: #1d754d;
+}
+.skill .card{
+	padding: 50px 100px 50px 100px;
+	display: inline-flex;
+	width: 100%;
+}
+.skill .card .skill-detai{
+	width: 100%;
+}
+.skill .card .skill-detail .box{
+	margin-top: 20px;
+	width: 100%;
+}
+.skill .card .skill-detail .box .line{
+	width: 100%;
+	height: 10px;
+	margin-top: 5px;
+		border-radius: 5px;
+	background: #AEF1D3;
+}
+.skill .card .skill-detail .box .html{
+	display: inline-flex;
+	width: 100%;
+}
+.skill .card .skill-detail .box .html h1{
+	font-size: 20px;
+	font-weight: normal;
+}
+.skill .card .skill-detail .box .html p{
+	color: grey;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 60%;
+}
+.skill .card .skill-detail .box .line .per-line{
+	width: 80%;
+	height: 10px;
+	background: #1d754d;
+	border-radius: 5px;
+}
