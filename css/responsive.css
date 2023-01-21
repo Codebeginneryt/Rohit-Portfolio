@@ -1,0 +1,214 @@
+@media only screen and (max-width: 1140px){
+	.navbar{
+		display: none;
+	}
+	.home{
+		width: 100%;
+		display:block;
+	}
+	.home .social{
+		height: 200px;
+		display:flex;
+		width: 100%;
+		text-align: center;
+		margin:0;
+		padding-left:140px;
+		padding-bottom: 40px;
+	}
+	.home .social i{
+	margin: 2px 0 12px 100px;
+	font-size: 60px;
+	color: #1d754d;
+}
+.home .responsive-pic{
+	width: 100%;
+	text-align: center;
+}
+.home .responsive-pic img{
+	display: block;
+	height: 500px;
+	width: 500px;
+	margin: 100px 0 20px 240px;
+}
+.home .picture img{
+	display: none;
+}
+.home .bio{
+	height: 700px;
+	width: 100%;
+	padding: 100px;
+	margin: 30px 0 0 0px;
+}
+.home .bio h1{
+	font-size: 80px;
+}
+.home .bio span{
+	font-size: 50px;
+}
+.home .bio p{
+	font-size: 40px;
+}
+.home .bio button{
+	margin-top: 40px;
+	margin-left: 10px;
+	height: 100px;
+	width: 320px;
+	font-size: 38px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background: #1d754d;
+	border-radius: 5px;
+}
+.mobile-nav{
+	width: 100vw;
+	height: 150px;
+	position: fixed;
+	bottom: 0;
+	display: inline-flex;
+	background: white;
+
+}
+.mobile-nav .logo h1{
+		margin: 30px;
+	font-size: 60px;
+}
+.mobile-nav .logo span{
+	color:  #1d754d;
+}
+.mobile-nav .menu{
+	margin-left: 50%;
+}
+.mobile-nav .menu i{
+	margin: 30px 0 0 20px;
+	font-size: 60px;
+}
+.mobile-items{
+	position: absolute;
+	background: white;
+	height: 100%;
+	width: 0%;
+	text-align:center;
+}
+.mobile-items ul{
+	margin-top:60%;
+}
+.mobile-items ul li{
+	list-style: none;
+	margin: 50px;
+	font-size: 50px;
+}
+.mobile-items ul li a{
+	text-decoration: none;
+	color:black;
+}
+.mobile-items ul li a:hover{
+	border-bottom: 2px solid #1d754d;
+	color: #1d754d;
+}
+.mobile-items .close i{
+	font-size: 80px;
+	position: absolute;
+	top: 70px;
+	left: 85%;
+}
+.about .about-text{
+	display:grid;
+	text-align: center;
+	padding: 50px 100px 50px 100px;
+}
+.about{
+	margin-top: 0%;
+	width: 100%;
+	height: 65vh;
+}
+.about .title span{
+	color: #1d754d;
+	font-size: 80px;
+}
+.about .title h1{
+	font-size: 60px;
+	color: black;
+}
+.about .title p{
+	font-size: 32px;
+	color: grey;
+	font-weight: bold;
+}
+.about .about-text .about-pic img{
+	height: 500px;
+	width: 500px;
+}
+.about .about-text .about-detail p{
+	font-size: 30px;
+}
+.about .about-text .about-detail{
+	margin:30px 0 0 0px;
+}
+.about .about-text .about-detail .experience .box p{
+	font-size: 36px;
+}
+.about .about-text .about-detail button{
+    height: 100px;
+	width: 320px;
+	font-size: 38px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background: #1d754d;
+	border-radius: 5px;
+	margin-top:80px;
+}
+.skill .title h1{
+	font-size: 80px;
+}
+.skill .title p{
+	font-size: 32px;
+	color: grey;
+	font-weight: bold;
+}
+.skill{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.skill .card{
+	width: 100%;
+	display:block;
+	text-align: center;
+}
+.skill .card .skill-card{
+	margin-left: 3%;
+	margin-bottom: 100px;
+}
+.skill .card .skill-detail .box .html h1{
+	margin-top: 35px;
+	font-size: 40px;
+}
+.skill .card .skill-detail .box .html p{
+		margin-top: 35px;
+	font-size: 40px;
+}
+.skill .skill-card{
+    height: 600px;
+	width: 750px;
+}
+.skill .skill-card .skill-title h1{
+	font-size: 40px;
+
+}
+.skill .skill-card .skill-title i{
+	font-size: 50px;
+}
+.skill .skill-card .skill-title span{
+	font-size: 40px;
+}
+.skill .card .skill-detail .box .line{
+	width: 100%;
+	height: 20px;
+	margin-top: 15px;
+}
+.skill .card .skill-detail .box .line .per-line{
+	width: 80%;
+	height:20px;
+}
+}
